@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/primrosechen/Documents/GitHub/Udacity_MLops/nd0821-c2-build-model-workflow-starter/mlruns/0/4d19ce9748c640e3bb91c21e30b3e697/artifacts
+end_time: 1678481916064
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4d19ce9748c640e3bb91c21e30b3e697
+run_name: capricious-ape-950
+run_uuid: 4d19ce9748c640e3bb91c21e30b3e697
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678481858749
+status: 3
+tags: []
+user_id: primrosechen

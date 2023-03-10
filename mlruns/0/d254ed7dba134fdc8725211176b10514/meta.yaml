@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/primrosechen/Documents/GitHub/Udacity_MLops/nd0821-c2-build-model-workflow-starter/mlruns/0/d254ed7dba134fdc8725211176b10514/artifacts
+end_time: 1678482002589
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d254ed7dba134fdc8725211176b10514
+run_name: magnificent-koi-855
+run_uuid: d254ed7dba134fdc8725211176b10514
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678481916079
+status: 4
+tags: []
+user_id: primrosechen

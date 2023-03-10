@@ -1,0 +1,46 @@
+{
+    "os": "macOS-12.5.1-arm64-arm-64bit",
+    "python": "3.10.0",
+    "heartbeatAt": "2023-03-10T20:59:44.935840",
+    "startedAt": "2023-03-10T20:59:44.241717",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        ".",
+        "-vv",
+        "--csv",
+        "clean_sample.csv:latest",
+        "--ref",
+        "clean_sample.csv:reference",
+        "--kl_threshold",
+        "0.2",
+        "--min_price",
+        "10",
+        "--max_price",
+        "350"
+    ],
+    "state": "running",
+    "program": "/Users/primrosechen/opt/anaconda3/envs/mlflow-65f653951e80e73065f8fb4b821e1ddd3c43dfac/bin/pytest",
+    "git": {
+        "remote": "https://github.com/Qiuyi-Primrose-Chen/build-ml-pipeline-for-short-term-rental-prices-homework.git",
+        "commit": "f1eaa62eedf2611e70282de93f300b3c30494322"
+    },
+    "email": "113934735+Qiuyi-Primrose-Chen@users.noreply.github.com",
+    "root": "/Users/primrosechen/Documents/GitHub/Udacity_MLops/nd0821-c2-build-model-workflow-starter",
+    "host": "primroses-Air",
+    "username": "primrosechen",
+    "executable": "/Users/primrosechen/opt/anaconda3/envs/mlflow-65f653951e80e73065f8fb4b821e1ddd3c43dfac/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "total": 926.3517189025879,
+        "used": 21.771591186523438
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}
