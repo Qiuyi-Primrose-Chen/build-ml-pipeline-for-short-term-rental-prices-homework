@@ -9,6 +9,10 @@ In this project you will build such a pipeline.
 1. Explore other models beyond the RandomForest trained here, creating a new separate step or customizing the random forest one to accommodate different types of models.
 2. Library consistency
 
+
+## Pipeline review
+![pipeline overview](images/pipeline.png "pipeline overview")
+
 ## Table of contents
 
 - [Introduction](#build-an-ML-Pipeline-for-Short-Term-Rental-Prices-in-NYC)
