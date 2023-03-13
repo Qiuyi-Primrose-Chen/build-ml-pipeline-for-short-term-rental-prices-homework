@@ -1,0 +1,24 @@
+{
+    "os": "macOS-12.5.1-arm64-arm-64bit",
+    "python": "3.9.15",
+    "heartbeatAt": "2023-03-13T18:47:42.050714",
+    "startedAt": "2023-03-13T18:47:41.320537",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/Users/primrosechen/Library/Jupyter/runtime/kernel-b2a8dcaf-98a1-475c-9391-0585a6f6a123.json"
+    ],
+    "state": "running",
+    "program": "src/eda/EDA-jvsc-8b5a5b39-8189-40a0-9e01-19d57a03a0742d555d05-0fbd-4a7d-9410-2a7b13ede974.ipynb",
+    "root": "/Users/primrosechen/Documents/GitHub/Udacity_MLops/Homework/build-ml-pipeline-for-short-term-rental-prices-homework",
+    "git": {
+        "remote": "https://github.com/Qiuyi-Primrose-Chen/build-ml-pipeline-for-short-term-rental-prices-homework.git",
+        "commit": "2cb89c613fe507a997714054d2eeade9ecc7e98b"
+    },
+    "email": "113934735+Qiuyi-Primrose-Chen@users.noreply.github.com",
+    "host": "primroses-Air",
+    "username": "primrosechen",
+    "executable": "/Users/primrosechen/opt/anaconda3/envs/nyc_airbnb_dev/bin/python"
+}

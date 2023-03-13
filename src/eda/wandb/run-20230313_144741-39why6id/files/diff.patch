@@ -1,0 +1,45 @@
+diff --git a/outputs/2023-03-10/15-56-50/.hydra/config.yaml b/outputs/2023-03-10/15-56-50/.hydra/config.yaml
+index a952a41..f17f757 100644
+--- a/outputs/2023-03-10/15-56-50/.hydra/config.yaml
++++ b/outputs/2023-03-10/15-56-50/.hydra/config.yaml
+@@ -1,8 +1,8 @@
+ main:
+   components_repository: https://github.com/Qiuyi-Primrose-Chen/build-ml-pipeline-for-short-term-rental-prices-homework.git#components
+   source_repository: https://github.com/Qiuyi-Primrose-Chen/build-ml-pipeline-for-short-term-rental-prices-homework.git#src
+-  project_name: mckinsey
+-  experiment_name: mckinsey
++  project_name: nyc_airbnb
++  experiment_name: development
+   steps: all
+ etl:
+   sample: sample1.csv
+diff --git a/src/basic_cleaning/MLproject b/src/basic_cleaning/MLproject
+index 5eb8fe8..7986047 100644
+--- a/src/basic_cleaning/MLproject
++++ b/src/basic_cleaning/MLproject
+@@ -23,11 +23,11 @@ entry_points:
+ 
+       min_price:
+         description: ## ADD DESCRIPTION
+-        type: string
++        type: float
+ 
+       max_price:
+         description: ## ADD DESCRIPTION
+-        type: string
++        type: float
+ 
+ 
+     command: >-
+diff --git a/src/basic_cleaning/conda.yml b/src/basic_cleaning/conda.yml
+index 8db69e2..5e0b27d 100644
+--- a/src/basic_cleaning/conda.yml
++++ b/src/basic_cleaning/conda.yml
+@@ -7,6 +7,7 @@ dependencies:
+   - requests=2.26.0
+   - pip=22.3.1
+   - hydra-core=1.3.1
++  - pandas=1.5.2
+   - pip:
+       - wandb==0.13.9
+       - hydra-joblib-launcher==1.2.0
